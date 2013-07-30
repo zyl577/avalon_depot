@@ -83,7 +83,7 @@ h1 {
 }
 
 #columns {
-  background: #162;
+  background: #141;
 }
 
 #main {
@@ -99,8 +99,7 @@ h1 {
   padding-left: 1em;
   padding-bottom: 1em;
   width: 12em;
-  background: #162;
-  color: #FFFFFF;
+  background: #141;
 }
 
 #side a {
@@ -175,6 +174,21 @@ h1 {
   border-top: 1px solid #595;
 }
 /* END:cartmain */
+
+/* START:cartside */
+/* Styles for the cart in the sidebar */
+
+#cart, #cart table {
+  font-size: smaller;
+  color:     white;
+}
+
+#cart table {
+  border-top:    1px dotted #595;
+  border-bottom: 1px dotted #595;
+  margin-bottom: 10px;
+}
+/* END:cartside */
 
 /* The error box */
 

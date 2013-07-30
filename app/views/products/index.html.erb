@@ -12,7 +12,7 @@
       <td class="list-description">
         <dl>
           <dt><%=h product.title %></dt>
-          <dd><%=h product.description.gsub(/<.*?>/,'') %></dd>
+          <dd><%=h truncate(product.description.gsub(/<.*?>/,''),:length => 80) %></dd>
         </dl>
       </td>
 
